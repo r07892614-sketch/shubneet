@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SHUBHNEET Punjabi 2019 ᵀᴹ 👑 – Join Channel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, Poppins, sans-serif;
+    }
+
+    body {
+      background: #f3f4f6;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      color: #111827;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 480px;
+      background: #ffffff;
+      min-height: 100vh;
+      border-left: 1px solid #d1d5db;
+      border-right: 1px solid #d1d5db;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Top Bar */
+    .top {
+      padding: 14px 14px;
+      border-bottom: 1px solid #e5e7eb;
+      text-align: center;
+      font-weight: 700;
+      font-size: 1rem;
+    }
+
+    /* Center Logo */
+    .logo-wrap {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .logo-circle {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      overflow: hidden;
+      background: #e5e7eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 3px solid #3b82f6;
+    }
+
+    .logo-circle img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .channel-name {
+      text-align: center;
+      font-size: 1.15rem;
+      margin-top: 10px;
+      font-weight: 700;
+    }
+
+    .subs {
+      text-align: center;
+      color: #6b7280;
+      margin-top: 4px;
+      font-size: 0.88rem;
+    }
+
+    .desc {
+      margin: 14px auto;
+      padding: 0 18px;
+      text-align: center;
+      font-size: 0.95rem;
+      line-height: 1.55;
+      color: #1f2937;
+      white-space: pre-line;
+    }
+
+    .highlight {
+      color: #1d4ed8;
+      font-weight: 600;
+    }
+
+    .divider {
+      width: 65%;
+      height: 1px;
+      margin: 18px auto;
+      background: #e5e7eb;
+    }
+
+    .timer-label {
+      text-align: center;
+      color: #6b7280;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .timer-box {
+      margin-top: 6px;
+      display: inline-block;
+      min-width: 90px;
+      padding: 6px 14px;
+      background: #f9fafb;
+      border: 1px solid #d1d5db;
+      border-radius: 999px;
+      font-size: 1rem;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* Button */
+    .join-btn {
+      margin: 24px auto 0;
+      display: block;
+      width: 85%;
+      padding: 14px;
+      border-radius: 999px;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #fff;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      background: linear-gradient(120deg, #2563eb, #3b82f6);
+      position: relative;
+      overflow: hidden;
+      animation: fadePulse 2.2s ease-in-out infinite;
+      letter-spacing: 0.08em;
+    }
+
+    .join-btn::before {
+      content: "";
+      position: absolute;
+      top: -40%;
+      left: -20%;
+      width: 30%;
+      height: 180%;
+      background: linear-gradient(
+        120deg,
+        rgba(255,255,255,0.1),
+        rgba(255,255,255,0.8),
+        rgba(255,255,255,0.1)
+      );
+      transform: translateX(-150%) rotate(20deg);
+      animation: shineMove 2.2s infinite ease-in-out;
+      pointer-events: none;
+    }
+
+    @keyframes shineMove {
+      0%   { transform: translateX(-150%) rotate(20deg); }
+      60%  { transform: translateX(140%) rotate(20deg); }
+      100% { transform: translateX(140%) rotate(20deg); }
+    }
+
+    @keyframes fadePulse {
+      0%   { opacity: 0.7; }
+      50%  { opacity: 1; }
+      100% { opacity: 0.7; }
+    }
+
+    .join-btn.disabled {
+      background: #9ca3af;
+      animation: none;
+      cursor: not-allowed;
+    }
+
+    .footer-note {
+      margin-top: 12px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #6b7280;
+    }
+
+    .footer-note strong {
+      color: #111827;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <div class="top">Join Official Channel</div>
+
+    <!-- Logo -->
+    <div class="logo-wrap">
+      <div class="logo-circle">
+        <img src="logo.jpg" alt="Logo" />
+      </div>
+    </div>
+
+    <!-- Text -->
+    <div class="channel-name">SHUBHNEET Punjabi 2019 ᵀᴹ 👑</div>
+    <div class="subs">61 251 subscribers</div>
+
+    <div class="desc">
+Owner - <span class="highlight">@Shubhneet2019</span>
+
+Reddy888 Telegram👇🏻
+Best Betting Site👇🏻
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Timer -->
+    <div class="timer-label">Link active for</div>
+    <div id="timer" class="timer-box">00:60</div>
+
+    <!-- Button -->
+    <button id="joinBtn" class="join-btn">FREE [SHUBHNEET Punjabi 2019 ᵀᴹ 👑] JOIN</button>
+  </div>
+
+  <script>
+    // 60-second Timer
+    let timeLeft = 60;
+    const timerEl = document.getElementById("timer");
+    const joinBtn = document.getElementById("joinBtn");
+
+    function updateTimer() {
+      const s = timeLeft < 10 ? "0" + timeLeft : timeLeft;
+      timerEl.textContent = "00:" + s;
+
+      if (timeLeft <= 0) {
+        clearInterval(timerInterval);
+        timerEl.textContent = "00:00";
+        joinBtn.classList.add("disabled");
+        joinBtn.disabled = true;
+        joinBtn.textContent = "TIME EXPIRED";
+      }
+
+      timeLeft--;
+    }
+
+    const timerInterval = setInterval(updateTimer, 1000);
+    updateTimer();
+
+    // Redirect on click
+    joinBtn.addEventListener("click", () => {
+      if (joinBtn.disabled) return;
+
+      // Yaha apna Telegram link daalo
+      const telegramUrl = "https://t.me/+rWXjJuNf211kOGQ1";
+
+      window.location.href = telegramUrl;
+    });
+  </script>
+</body>
+</html>
